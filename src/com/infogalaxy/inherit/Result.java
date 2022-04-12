@@ -1,3 +1,0 @@
-package com.infogalaxy.inherit ;
-
-
