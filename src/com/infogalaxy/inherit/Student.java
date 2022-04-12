@@ -13,16 +13,12 @@ public class Student {
         Name = scanner.next();
     }
 }
-class Show extends Student {
-    void getStud() {
-        System.out.println("Student ID no : "+id);
-        System.out.println("Student Name : "+Name);
-    }
-}
-class Main {
-    public static void main(String args[]) {
-        Show show = new Show();
-        show.setStud();
-        show.getStud();
+class Internal extends Student {
+    int im1 ;
+    int im2 ;
+    void getInternal() {
+        System.out.println("Internal Marks : ");
+        im1 = scanner.nextInt();
+        im2 = scanner.nextInt();
     }
 }
